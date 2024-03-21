@@ -7,7 +7,7 @@
 body {
   font-family: var(--deafault-font-family);
 }
-p {
+.hello-paragraph {
   font-size: 36px;
   font-weight: 700;
   color: #272142;
@@ -18,10 +18,15 @@ h1 {
   font-size: 96px;
 }
 
-h2 {
+.hero h2 {
   font-size: 24px;
   font-weight: 400;
   color: #272142;
+  font-family: var(--deafault-font-family);
+}
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -36,4 +41,37 @@ h2 {
   background-color: var(--primary-color);
   padding: 18px 30px;
   border-radius: 4px;
+}
+p {
+  color: #272142;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.project-description {
+  padding: 120px 60px;
+}
+.btn-learn-more {
+  color: var(--primary-color);
+  border: solid 1px var(--primary-color);
+  padding: 18px 30px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero h2 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
 }
