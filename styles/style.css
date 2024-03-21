@@ -6,6 +6,7 @@
 }
 body {
   font-family: var(--deafault-font-family);
+  margin-bottom: 80px;
 }
 .hello-paragraph {
   font-size: 36px;
@@ -27,6 +28,10 @@ h1 {
 h2 {
   font-family: var(--heading-font-family);
   font-size: 64px;
+}
+h3 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -56,12 +61,40 @@ p {
   border: solid 1px var(--primary-color);
   padding: 18px 30px;
 }
+
+.inquiry-container {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  padding: 50px 120px 50px 200px;
+  margin: 100px 0 50px;
+}
+.inquiry-container p {
+  font-size: 18px;
+  margin: 0;
+}
+footer p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+i {
+  font-size: 30px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 100%;
+  background-color: #f7f8ff;
+  color: #6c63ff;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 48px;
   }
   h2 {
     font-size: 44px;
+  }
+  h3 {
+    font-size: 36px;
   }
   .project-description {
     text-align: center;
@@ -73,5 +106,12 @@ p {
   .hero h2 {
     font-size: 22px;
     margin-top: 20px;
+  }
+  .inquiry-container {
+    border-radius: 20px;
+    padding: 30px;
+    margin: 100px 0 50px;
+    flex-direction: column;
+    text-align: center;
   }
 }
