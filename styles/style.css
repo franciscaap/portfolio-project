@@ -88,7 +88,15 @@ p {
 .inquiry-container p {
   font-size: 18px;
 }
-footer p {
+.about-me-row {
+  margin: 200px 100px 100px;
+}
+.about-image {
+  border: solid 8px var(--secondary-color);
+  border-radius: 30px;
+  margin-left: 50px;
+}
+footer a {
   font-size: 24px;
   font-weight: 500;
   color: #291803;
@@ -131,5 +139,17 @@ i {
     margin: 50px 15px;
     flex-direction: column;
     text-align: center;
+  }
+  .about-heading {
+    font-size: 38px;
+  }
+  .about-me-row {
+    margin: 120px 10px 70px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-image {
+    margin-top: 50px;
+    margin-left: 0;
   }
 }
