@@ -6,7 +6,7 @@
 }
 body {
   font-family: var(--deafault-font-family);
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .hello-paragraph {
   font-size: 36px;
@@ -159,5 +159,10 @@ i {
     margin: 50px 15px;
     flex-direction: column;
     text-align: center;
+  }
+  i {
+    font-size: 24px;
+    padding: 5px;
+    margin: 5px;
   }
 }
