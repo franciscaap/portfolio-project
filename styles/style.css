@@ -103,12 +103,20 @@ p {
 .inquiry-container p {
   font-size: 18px;
 }
-
 .email-link {
-  font-size: 24px;
+  font-size: 20px;
+}
+.email-link,
+.link {
+  text-decoration: none;
   font-weight: 500;
   color: #291803;
   opacity: 80%;
+}
+.email-link:hover,
+a :hover {
+  color: #bc8c06;
+  transition: all ease-in-out 200ms;
 }
 
 i {
@@ -116,6 +124,9 @@ i {
   padding: 10px;
   margin: 15px;
   color: var(--primary-color);
+}
+footer p {
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
@@ -164,5 +175,9 @@ i {
     font-size: 24px;
     padding: 5px;
     margin: 5px;
+  }
+  footer p {
+    font-size: 12px;
+    line-height: 1.5;
   }
 }
